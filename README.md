@@ -207,6 +207,6 @@ int main()
 
 
 ***
-[Poprzednia część]() | [Spis treści](https://github.com/CyberMALab/Wprowadzenie-do-programowania-w-j-zyku-ANSI-C.git) | [Następna część]()
+[Poprzednia część](https://github.com/CyberMALab/Wprowadzenie-do-wskaznikow.git) | [Spis treści](https://github.com/CyberMALab/Wprowadzenie-do-programowania-w-j-zyku-ANSI-C.git) | [Następna część]()
 ***
 &copy; Cyberspace Modelling and Analysis Laboratory
