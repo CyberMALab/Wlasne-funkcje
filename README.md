@@ -9,6 +9,9 @@ Przekazywanie argumentu przez wartość jest nam znane z rozdziału 7. Tam pisal
 *Przykład (13.1.) tworzenie funkcji z argumentami przekazywanymi przez wartość.*
 
 ```
+#include <stdio.h>
+#include <stdlib.h>
+
 int dodaj5(int liczba)
 {
 	liczba += 5;
@@ -40,6 +43,9 @@ Aby zadeklarować funkcję z parametrem – wskaźnikiem, należy zadeklarować 
 *Przykład (13.2.1) tworzenie funkcji z argumentami przekazywanymi przez wskaźnik.*
 
 ```
+#include <stdio.h>
+#include <stdlib.h>
+
 int dodaj5(int* liczba)
 {
 	*liczba += 5;
@@ -61,6 +67,9 @@ int main()
 *Przykład (13.2.2) tworzenie funkcji z argumentami przekazywanymi przez wskaźnik.*
 
 ```
+#include <stdio.h>
+#include <stdlib.h>
+
 int dodaj5(int* liczba)
 {
 	*liczba += 5;
@@ -171,6 +180,9 @@ Przekazywanie argumentu przez referencję, jest podobne w działaniu jak przekaz
 *Przykład (13.5.1) tworzenie funkcji z argumentami przekazywanymi przez referencję*
 
 ```
+#include <stdio.h>
+#include <stdlib.h>
+
 int dodaj5(int &liczba)  
 {
 	liczba += 5;
