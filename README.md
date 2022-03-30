@@ -6,7 +6,7 @@ Rozdział ten jest rozszerzeniem rozdziału 7. Rozszerzone zostanie tutaj pojęc
 
 Przekazywanie argumentu przez wartość jest nam znane z rozdziału 7. Tam pisaliśmy funkcje, które przekazywały wartość jako parametr funkcji. Przekazanie parametru przez wartość definiuje się poprzez deklarację funkcji wraz z argumentami – zmiennymi. Taka deklaracja powoduje, że w momencie wywołania funkcji, skopiuje ona wartość podaną jako parametr do argumentu liczba, więc wartość zmiennej podanej jako parametr nie ulegnie zmianie.
 
-*Przykład (13.1.) tworzenie funkcji z argumentami przekazywanymi przez wartość.*
+*Przykład (13.1) tworzenie funkcji z argumentami przekazywanymi przez wartość.*
 
 ```
 #include <stdio.h>
@@ -177,7 +177,7 @@ Taka deklaracja nie jest możliwa w ANSI C, jednak jej istnienie jest istotne w 
 
 Przekazywanie argumentu przez referencję, jest podobne w działaniu jak przekazanie parametru funkcji przez wskaźnik. Taka funkcja, już może wpłynąć na wartość zmiennej którą do niej przekazujemy. Argumenty funkcji przekazywane przez referencje deklaruje się poprzez podanie zmiennej z operatorem referencji. Taka deklaracja powoduje, że w momencie przekazywania argumentu, zmienna parametru liczba stanie się jednoznaczna z argumentem. Każda wykonana operacja na zmiennej wewnątrz funkcji, wpłynie na wartość zmiennej podanej podczas jej wywoływania. 
 
-*Przykład (13.5.1) tworzenie funkcji z argumentami przekazywanymi przez referencję*
+*Przykład (13.5) tworzenie funkcji z argumentami przekazywanymi przez referencję*
 
 ```
 #include <stdio.h>
